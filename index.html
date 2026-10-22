@@ -2,38 +2,222 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Baltic-Breaks Golf Tour Operator</title>
-<meta name="description" content="Baltic-Breaks Golf Tour Operator - golf travel, golf tournaments, culture programmes, beach holidays and spa breaks since 2003.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.png">
-<link rel="canonical" href="/en/">
-<meta http-equiv="refresh" content="0; url=/en/">
-<style>
-  html,body{margin:0;padding:0;height:100%;background:#0f1b2d;color:#fff;
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  .wrap{height:100%;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}
-  .logo{font-size:20px;letter-spacing:.18em;text-transform:uppercase;opacity:.55;margin-bottom:28px}
-  h1{font-size:30px;font-weight:300;margin:0 0 14px;letter-spacing:.02em}
-  p{opacity:.6;font-size:14px;margin:0 0 30px}
-  .langs{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-  .langs a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.35);
-    border-radius:999px;padding:11px 26px;font-size:14px;letter-spacing:.06em;
-    transition:background .2s,border-color .2s}
-  .langs a:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.7)}
-</style>
+<title>Baltic-Breaks — Golf Tour Operator | Golf tours, tournaments and culture travel</title>
+<meta name="description" content="Golf travel, golf tournaments, culture programmes, beach holidays and spa breaks across Europe and beyond.">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+
 </head>
 <body>
-<div class="wrap">
-  <div>
-    <div class="logo">Baltic-Breaks</div>
-    <h1>Golf Tour Operator</h1>
-    <p>Choose your language</p>
-    <div class="langs">
-      <a href="/en/">English</a>
-      <a href="/ru/">Русский</a>
-      <a href="/ee/">Eesti</a>
+
+<header class="site-head">
+  <div class="head-in">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-icon.png" alt="Baltic-Breaks">
+      <span class="bt"><b>Baltic-Breaks</b><span>Golf Tour Operator</span></span>
+    </a>
+    <nav class="nav">
+      <a href="tours/index.html">Tours</a>
+      <a href="tours/index.html?c=Golf%20Tournaments">Tournaments</a>
+      <a href="tours/index.html?c=Golf%20Travel%20for%20Groups">Groups</a>
+      <a href="#contact">Contact</a>
+      <a class="cta" href="tours/index.html">Browse tours</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <img class="hero-bg" src="assets/img/slide1.jpg" alt="">
+  <div class="hero-in">
+    <span class="kicker">Since 2003 · IAGTO member</span>
+    <h1>Golf travel, thoughtfully arranged</h1>
+    <p>Handpicked golf resorts, tournaments and culture programmes across Europe, the Mediterranean and beyond. One operator, every detail handled.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="tours/index.html">Browse all tours</a>
+      <a class="btn btn-ghost" href="#contact">Talk to us</a>
     </div>
   </div>
-</div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Featured tours</h2>
+      <p>A selection from the current programme. Every itinerary can be adapted to your dates and group.</p>
+    </div>
+    <div class="grid">
+    <a class="card" href="tours/taste-of-sri-lanka.html" data-cat="Beach Holiday" data-title="taste of sri lanka">
+      <div class="card-img">
+        <img src="img/2/1/7/taste-of-sri-lanka_1_tn.jpg" alt="Taste of Sri Lanka" loading="lazy">
+        <span class="card-tag">Beach Holiday</span>
+      </div>
+      <div class="card-body">
+        <h3>Taste of Sri Lanka</h3>
+        <div class="card-foot"><span class="price">€2 300 <small>pp</small></span><span class="card-arrow">&rarr;</span></div>
+      </div>
+    </a>
+    <a class="card" href="tours/armenia.html" data-cat="Culture Program" data-title="armenia">
+      <div class="card-img">
+        <img src="img/1/0/7/armenia_1_tn.jpg" alt="Armenia" loading="lazy">
+        <span class="card-tag">Culture Program</span>
+      </div>
+      <div class="card-body">
+        <h3>Armenia</h3>
+        <div class="card-foot"><span class="price">€1 250 <small>pp</small></span><span class="card-arrow">&rarr;</span></div>
+      </div>
+    </a>
+    <a class="card" href="tours/bali-trip.html" data-cat="Culture Program" data-title="bali trip">
+      <div class="card-img">
+        <img src="img/9/9/bali-trip_1_tn.jpg" alt="Bali trip" loading="lazy">
+        <span class="card-tag">Culture Program</span>
+      </div>
+      <div class="card-body">
+        <h3>Bali trip</h3>
+        <div class="card-foot"><span class="price">€2 525 <small>pp</small></span><span class="card-arrow">&rarr;</span></div>
+      </div>
+    </a>
+    <a class="card" href="tours/barberino-designer-outlet.html" data-cat="Culture Program" data-title="barberino designer outlet">
+      <div class="card-img">
+        <img src="img/2/4/5/barberino-designer-outlet_1_tn.jpg" alt="Barberino Designer Outlet" loading="lazy">
+        <span class="card-tag">Culture Program</span>
+      </div>
+      <div class="card-body">
+        <h3>Barberino Designer Outlet</h3>
+        <div class="card-foot"><span class="price">€20 <small>pp</small></span><span class="card-arrow">&rarr;</span></div>
+      </div>
+    </a>
+    <a class="card" href="tours/discover-the-best-of-azerbaijan.html" data-cat="Culture Program" data-title="discover the best of azerbaijan">
+      <div class="card-img">
+        <img src="img/2/4/3/discover-the-best-of-azerbaijan_1_tn.jpg" alt="Discover the best of Azerbaijan" loading="lazy">
+        <span class="card-tag">Culture Program</span>
+      </div>
+      <div class="card-body">
+        <h3>Discover the best of Azerbaijan</h3>
+        <div class="card-foot"><span class="price">€1 450 <small>pp</small></span><span class="card-arrow">&rarr;</span></div>
+      </div>
+    </a>
+    <a class="card" href="tours/imperial-cities-tour-of-morocco.html" data-cat="Culture Program" data-title="imperial cities tour of morocco">
+      <div class="card-img">
+        <img src="img/2/6/2/imperial-cities-tour-of-morocco_1_tn.jpg" alt="Imperial Cities Tour of Morocco" loading="lazy">
+        <span class="card-tag">Culture Program</span>
+      </div>
+      <div class="card-body">
+        <h3>Imperial Cities Tour of Morocco</h3>
+        <div class="card-foot"><span class="price">€1 850 <small>pp</small></span><span class="card-arrow">&rarr;</span></div>
+      </div>
+    </a>
+    </div>
+    <div style="text-align:center;margin-top:44px">
+      <a class="btn btn-primary" href="tours/index.html">See all 83 tours</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-soft">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Browse by type</h2>
+      <p>From single-resort golf breaks to multi-country culture journeys.</p>
+    </div>
+    <div class="grid">
+      <a class="card" href="tours/index.html?c=Golf%20Travel">
+        <div class="card-body" style="padding:26px 24px">
+          <h3 style="margin-bottom:6px">Golf Travel</h3>
+          <div class="card-meta" style="margin:0">45 tours</div>
+        </div>
+      </a>
+      <a class="card" href="tours/index.html?c=Golf%20Travel%20for%20Groups">
+        <div class="card-body" style="padding:26px 24px">
+          <h3 style="margin-bottom:6px">Golf Travel for Groups</h3>
+          <div class="card-meta" style="margin:0">6 tours</div>
+        </div>
+      </a>
+      <a class="card" href="tours/index.html?c=Golf%20Tournaments">
+        <div class="card-body" style="padding:26px 24px">
+          <h3 style="margin-bottom:6px">Golf Tournaments</h3>
+          <div class="card-meta" style="margin:0">2 tours</div>
+        </div>
+      </a>
+      <a class="card" href="tours/index.html?c=Beach%20Holiday">
+        <div class="card-body" style="padding:26px 24px">
+          <h3 style="margin-bottom:6px">Beach Holiday</h3>
+          <div class="card-meta" style="margin:0">13 tours</div>
+        </div>
+      </a>
+      <a class="card" href="tours/index.html?c=Culture%20Program">
+        <div class="card-body" style="padding:26px 24px">
+          <h3 style="margin-bottom:6px">Culture Program</h3>
+          <div class="card-meta" style="margin:0">13 tours</div>
+        </div>
+      </a>
+      <a class="card" href="tours/index.html?c=Skiing%20Holidays">
+        <div class="card-body" style="padding:26px 24px">
+          <h3 style="margin-bottom:6px">Skiing Holidays</h3>
+          <div class="card-meta" style="margin:0">2 tours</div>
+        </div>
+      </a>
+      <a class="card" href="tours/index.html?c=Gourmet%20Tours">
+        <div class="card-body" style="padding:26px 24px">
+          <h3 style="margin-bottom:6px">Gourmet Tours</h3>
+          <div class="card-meta" style="margin:0">2 tours</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Why book with Baltic-Breaks</h2>
+      <p>Twenty years of arranging golf travel for groups and individuals.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="card-body">
+        <h3>Real golf knowledge</h3>
+        <div class="card-meta" style="margin:0">We play the courses we sell. Handicap requirements, tee times and transfer times are checked, not assumed.</div>
+      </div></div>
+      <div class="card"><div class="card-body">
+        <h3>Groups are our normal</h3>
+        <div class="card-meta" style="margin:0">From four-ball trips to 40-player tournaments, with the hotel, golf and transfers handled as one package.</div>
+      </div></div>
+      <div class="card"><div class="card-body">
+        <h3>One point of contact</h3>
+        <div class="card-meta" style="margin:0">You deal with the person arranging the trip, from first enquiry to the last transfer.</div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot" id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Baltic-Breaks</h4>
+        <a href="mailto:info@baltic-breaks.com">info@baltic-breaks.com</a>
+        <a href="tel:+3726311796">+372 6311 796</a>
+        <a>Mere pst 4, 10111 Tallinn, Estonia</a>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="tours/index.html">All tours</a>
+        <a href="tours/index.html?c=Golf%20Travel">Golf travel</a>
+        <a href="tours/index.html?c=Culture%20Program">Culture programmes</a>
+        <a href="tours/index.html?c=Beach%20Holiday">Beach holidays</a>
+      </div>
+      <div>
+        <h4>Languages</h4>
+        <a href="en/index.html">English</a>
+        <a href="ru/index.html">Русский</a>
+        <a href="ee/index.html">Eesti</a>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span>&copy; Baltic-Breaks Golf Tour Operator</span>
+      <span>IAGTO member</span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
